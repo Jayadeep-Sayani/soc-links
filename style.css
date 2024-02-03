@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lexend+Mega&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: block;
+  height: 62.5vh;
+  width: 375px;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 10px;
+  margin: 0 20px;
+}
+
+.pfp {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pfp img {
+  border-radius: 50%;
+  height: 100px;
+}
+
+h2, h3 {
+  text-align: center;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  color: #fff;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  margin-top: 10px;
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+  font-size: 16px;
+}
+.quote-container {
+  margin-top: 30px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: hsl(0, 0%, 80%);
+}
+
+.quote {
+  text-align: center;
+}
+
+.buttons {
+  display: grid;
+  gap: 1rem;
+  margin-top: 30px !important;
+  width: 80%;
+  margin: auto;
+}
+
+.buttons button {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  height: 42px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  background-color: hsl(0, 0%, 20%);
+  color: #fff;
+  font-weight: 700;
+  transition: ease-in-out 0.2s;
+}
+
+.buttons button:hover {
+  color: #000;
+  background-color: hsl(75, 94%, 57%);
+}
